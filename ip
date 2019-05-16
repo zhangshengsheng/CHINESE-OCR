@@ -2,19 +2,19 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (本地环回)
-        RX packets 406  bytes 83240 (83.2 KB)
+        RX packets 251  bytes 71545 (71.5 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 406  bytes 83240 (83.2 KB)
+        TX packets 251  bytes 71545 (71.5 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlxfc3d93b707c6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.1.30  netmask 255.255.255.0  broadcast 192.168.1.255
-        inet6 2409:8a20:836:83d0:b435:8bfd:60c9:343a  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::8604:331b:c1a:7446  prefixlen 64  scopeid 0x20<link>
+        inet6 2409:8a20:836:83d0:3847:c3b8:f8e7:420c  prefixlen 64  scopeid 0x0<global>
         inet6 2409:8a20:836:83d0:5fc8:258b:44b5:9cef  prefixlen 64  scopeid 0x0<global>
-        inet6 fe80::9911:ddce:f735:3aeb  prefixlen 64  scopeid 0x20<link>
         ether fc:3d:93:b7:07:c6  txqueuelen 1000  (以太网)
-        RX packets 224  bytes 92533 (92.5 KB)
+        RX packets 280  bytes 146211 (146.2 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 208  bytes 66874 (66.8 KB)
+        TX packets 294  bytes 90927 (90.9 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
