@@ -9,30 +9,30 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (本地环回)
-        RX packets 350  bytes 30876 (30.8 KB)
+        RX packets 187  bytes 16509 (16.5 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 350  bytes 30876 (30.8 KB)
+        TX packets 187  bytes 16509 (16.5 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlx502b73eb0cd2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.1.65  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 2409:8a20:83b:a600:4d93:4f9b:eac8:782a  prefixlen 64  scopeid 0x0<global>
         inet6 fe80::1506:fe43:6b68:ac2  prefixlen 64  scopeid 0x20<link>
-        inet6 2409:8a20:83b:a600:45c7:95d8:4672:a299  prefixlen 64  scopeid 0x0<global>
         inet6 2409:8a20:83b:a600:606c:6d6b:6ec5:f55f  prefixlen 64  scopeid 0x0<global>
         ether 50:2b:73:eb:0c:d2  txqueuelen 1000  (以太网)
-        RX packets 289  bytes 40410 (40.4 KB)
+        RX packets 191  bytes 27490 (27.4 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 364  bytes 45535 (45.5 KB)
+        TX packets 201  bytes 27756 (27.7 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlxfc3d93b707c6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.1.30  netmask 255.255.255.0  broadcast 192.168.1.255
-        inet6 2409:8a20:83b:a600:c4e9:d3c5:d698:76c3  prefixlen 64  scopeid 0x0<global>
+        inet6 2409:8a20:83b:a600:b105:996a:945:4016  prefixlen 64  scopeid 0x0<global>
         inet6 fe80::e669:961f:324c:9e45  prefixlen 64  scopeid 0x20<link>
         inet6 2409:8a20:83b:a600:1f1e:b977:d11e:dbcb  prefixlen 64  scopeid 0x0<global>
         ether fc:3d:93:b7:07:c6  txqueuelen 1000  (以太网)
-        RX packets 6911  bytes 9471603 (9.4 MB)
+        RX packets 8367  bytes 12064544 (12.0 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 4160  bytes 396081 (396.0 KB)
+        TX packets 4402  bytes 345328 (345.3 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
