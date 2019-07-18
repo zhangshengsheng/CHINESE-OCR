@@ -9,30 +9,30 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (本地环回)
-        RX packets 213  bytes 18159 (18.1 KB)
+        RX packets 187  bytes 16416 (16.4 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 213  bytes 18159 (18.1 KB)
+        TX packets 187  bytes 16416 (16.4 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlx502b73eb0cd2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.1.65  netmask 255.255.255.0  broadcast 192.168.1.255
-        inet6 2409:8a20:834:1870:b034:3349:ba83:56f5  prefixlen 64  scopeid 0x0<global>
+        inet6 2409:8a20:832:3440:c4e1:538f:829d:48a5  prefixlen 64  scopeid 0x0<global>
+        inet6 2409:8a20:832:3440:c425:a97c:db97:ef45  prefixlen 64  scopeid 0x0<global>
         inet6 fe80::1506:fe43:6b68:ac2  prefixlen 64  scopeid 0x20<link>
-        inet6 2409:8a20:834:1870:4594:5341:2c36:a814  prefixlen 64  scopeid 0x0<global>
         ether 50:2b:73:eb:0c:d2  txqueuelen 1000  (以太网)
-        RX packets 934  bytes 97250 (97.2 KB)
+        RX packets 448  bytes 222314 (222.3 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 315  bytes 41961 (41.9 KB)
+        TX packets 425  bytes 56530 (56.5 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlxfc3d93b707c6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.1.30  netmask 255.255.255.0  broadcast 192.168.1.255
         inet6 fe80::e669:961f:324c:9e45  prefixlen 64  scopeid 0x20<link>
-        inet6 2409:8a20:834:1870:f593:cd09:3e3d:31b9  prefixlen 64  scopeid 0x0<global>
-        inet6 2409:8a20:834:1870:91df:72ce:db42:648a  prefixlen 64  scopeid 0x0<global>
+        inet6 2409:8a20:832:3440:8ea3:7ad4:8c5a:5ae5  prefixlen 64  scopeid 0x0<global>
+        inet6 2409:8a20:832:3440:6ce4:6f4d:d845:cf8f  prefixlen 64  scopeid 0x0<global>
         ether fc:3d:93:b7:07:c6  txqueuelen 1000  (以太网)
-        RX packets 67471  bytes 97708529 (97.7 MB)
+        RX packets 5991  bytes 8459745 (8.4 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 31856  bytes 2416765 (2.4 MB)
+        TX packets 2951  bytes 240017 (240.0 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
