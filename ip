@@ -1,30 +1,30 @@
 enp4s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.123.130  netmask 255.255.255.0  broadcast 192.168.123.255
-        inet6 240e:345:356:2200:218d:857b:655e:9e33  prefixlen 64  scopeid 0x0<global>
         inet6 240e:345:356:2200::1015  prefixlen 128  scopeid 0x0<global>
         inet6 240e:345:356:2200:6ba3:3714:515e:a35  prefixlen 64  scopeid 0x0<global>
         inet6 fe80::856a:6c1:2cfe:cb0  prefixlen 64  scopeid 0x20<link>
+        inet6 240e:345:356:2200:b989:3ebd:2456:979a  prefixlen 64  scopeid 0x0<global>
         ether 04:92:26:bf:d6:a6  txqueuelen 1000  (以太网)
-        RX packets 379  bytes 263412 (263.4 KB)
+        RX packets 324  bytes 231180 (231.1 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 437  bytes 46857 (46.8 KB)
+        TX packets 365  bytes 37946 (37.9 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (本地环回)
-        RX packets 438  bytes 30826 (30.8 KB)
+        RX packets 300  bytes 21571 (21.5 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 438  bytes 30826 (30.8 KB)
+        TX packets 300  bytes 21571 (21.5 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 xdroid0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.252.1  netmask 255.255.255.0  broadcast 0.0.0.0
-        inet6 fe80::4c6e:3aff:feb0:5407  prefixlen 64  scopeid 0x20<link>
-        ether 4e:6e:3a:b0:54:07  txqueuelen 1000  (以太网)
+        inet6 fe80::949f:6cff:fe0e:943b  prefixlen 64  scopeid 0x20<link>
+        ether 96:9f:6c:0e:94:3b  txqueuelen 1000  (以太网)
         RX packets 0  bytes 0 (0.0 B)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 74  bytes 8902 (8.9 KB)
+        TX packets 65  bytes 7642 (7.6 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
