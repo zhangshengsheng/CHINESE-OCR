@@ -1,38 +1,30 @@
 enp4s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.123.130  netmask 255.255.255.0  broadcast 192.168.123.255
+        inet6 240e:345:356:2200:34c9:df1d:a04e:b975  prefixlen 64  scopeid 0x0<global>
         inet6 240e:345:356:2200:6ba3:3714:515e:a35  prefixlen 64  scopeid 0x0<global>
-        inet6 240e:345:356:2200:ec83:a6ff:90cb:1baf  prefixlen 64  scopeid 0x0<global>
-        inet6 240e:345:356:2200::1015  prefixlen 128  scopeid 0x0<global>
         inet6 fe80::856a:6c1:2cfe:cb0  prefixlen 64  scopeid 0x20<link>
+        inet6 240e:345:356:2200::1015  prefixlen 128  scopeid 0x0<global>
         ether 04:92:26:bf:d6:a6  txqueuelen 1000  (以太网)
-        RX packets 70735  bytes 102832130 (102.8 MB)
+        RX packets 1845  bytes 594162 (594.1 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 35114  bytes 2007248 (2.0 MB)
+        TX packets 1156  bytes 201002 (201.0 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (本地环回)
-        RX packets 257  bytes 21729 (21.7 KB)
+        RX packets 318  bytes 26122 (26.1 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 257  bytes 21729 (21.7 KB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
-veth20TVVH: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet6 fe80::fcb6:1aff:fe5b:f7ef  prefixlen 64  scopeid 0x20<link>
-        ether fe:b6:1a:5b:f7:ef  txqueuelen 1000  (以太网)
-        RX packets 10  bytes 800 (800.0 B)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 22  bytes 2887 (2.8 KB)
+        TX packets 318  bytes 26122 (26.1 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 xdroid0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.252.1  netmask 255.255.255.0  broadcast 0.0.0.0
-        inet6 fe80::5cf3:c1ff:fefb:6539  prefixlen 64  scopeid 0x20<link>
-        ether fe:b6:1a:5b:f7:ef  txqueuelen 1000  (以太网)
-        RX packets 10  bytes 660 (660.0 B)
+        inet6 fe80::e42a:d0ff:fe9f:2c68  prefixlen 64  scopeid 0x20<link>
+        ether e6:2a:d0:9f:2c:68  txqueuelen 1000  (以太网)
+        RX packets 0  bytes 0 (0.0 B)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 69  bytes 8108 (8.1 KB)
+        TX packets 72  bytes 8720 (8.7 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
