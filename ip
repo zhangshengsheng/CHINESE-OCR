@@ -2,26 +2,26 @@ enp4s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.123.130  netmask 255.255.255.0  broadcast 192.168.123.255
         inet6 fe80::856a:6c1:2cfe:cb0  prefixlen 64  scopeid 0x20<link>
         ether 04:92:26:bf:d6:a6  txqueuelen 1000  (以太网)
-        RX packets 253571  bytes 369439196 (369.4 MB)
+        RX packets 8203  bytes 11521797 (11.5 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 124565  bytes 6861015 (6.8 MB)
+        TX packets 4581  bytes 308244 (308.2 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (本地环回)
-        RX packets 233  bytes 19294 (19.2 KB)
+        RX packets 223  bytes 18186 (18.1 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 233  bytes 19294 (19.2 KB)
+        TX packets 223  bytes 18186 (18.1 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 xdroid0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.252.1  netmask 255.255.255.0  broadcast 0.0.0.0
-        inet6 fe80::1c83:27ff:fed5:bb6f  prefixlen 64  scopeid 0x20<link>
-        ether 1e:83:27:d5:bb:6f  txqueuelen 1000  (以太网)
+        inet6 fe80::e850:45ff:fe39:1a54  prefixlen 64  scopeid 0x20<link>
+        ether ea:50:45:39:1a:54  txqueuelen 1000  (以太网)
         RX packets 0  bytes 0 (0.0 B)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 69  bytes 8052 (8.0 KB)
+        TX packets 60  bytes 7244 (7.2 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
