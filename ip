@@ -1,35 +1,35 @@
 enp4s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.123.130  netmask 255.255.255.0  broadcast 192.168.123.255
-        inet6 fe80::856a:6c1:2cfe:cb0  prefixlen 64  scopeid 0x20<link>
+        inet6 fe80::aaf:6c7f:310d:c050  prefixlen 64  scopeid 0x20<link>
         ether 04:92:26:bf:d6:a6  txqueuelen 1000  (以太网)
-        RX packets 39836  bytes 55433802 (55.4 MB)
+        RX packets 2877  bytes 2254786 (2.2 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 20201  bytes 1739840 (1.7 MB)
+        TX packets 2882  bytes 447558 (447.5 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (本地环回)
-        RX packets 235  bytes 19332 (19.3 KB)
+        RX packets 208  bytes 16493 (16.4 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 235  bytes 19332 (19.3 KB)
+        TX packets 208  bytes 16493 (16.4 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-vethEST2UQ: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet6 fe80::fcb0:c3ff:feaa:158b  prefixlen 64  scopeid 0x20<link>
-        ether fe:b0:c3:aa:15:8b  txqueuelen 1000  (以太网)
-        RX packets 17138  bytes 1532343 (1.5 MB)
+vethGWCYOD: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::fce6:a3ff:fe07:4e14  prefixlen 64  scopeid 0x20<link>
+        ether fe:e6:a3:07:4e:14  txqueuelen 1000  (以太网)
+        RX packets 2294  bytes 398316 (398.3 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 35053  bytes 48889686 (48.8 MB)
+        TX packets 2247  bytes 1605108 (1.6 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 xdroid0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.252.1  netmask 255.255.255.0  broadcast 0.0.0.0
-        inet6 fe80::2014:a1ff:fe07:b803  prefixlen 64  scopeid 0x20<link>
-        ether fe:b0:c3:aa:15:8b  txqueuelen 1000  (以太网)
-        RX packets 17138  bytes 1292411 (1.2 MB)
+        inet6 fe80::820:8aff:fe80:d0f9  prefixlen 64  scopeid 0x20<link>
+        ether fe:e6:a3:07:4e:14  txqueuelen 1000  (以太网)
+        RX packets 2294  bytes 366200 (366.2 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 35094  bytes 48894353 (48.8 MB)
+        TX packets 2289  bytes 1609859 (1.6 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
